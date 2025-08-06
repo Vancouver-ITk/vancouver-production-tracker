@@ -1,0 +1,1 @@
+"C:\Program Files\Python310\python.exe" "C:\Users\archa\Desktop\ATLASITk\vancouver-production-tracker\gsheet.py"
