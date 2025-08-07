@@ -133,6 +133,7 @@ for cell in R5_sheet.range('B3:B202'):
       new_stages.append([str(current_mod_stage)])
     else: 
       new_stages.append([""])
+R5_sheet.update(range_name=stage_cells, values=new_stages)         
 
 
 # Split module - go through each half module to get the location 
