@@ -35,8 +35,8 @@ R5_sheet = workbook.worksheet('R5')
 # reset
 new_locations = []
 new_stages = []
-stage_cells = 'W100:W400'
-location_cells = 'X100:X300'
+stage_cells = 'X100:X400'
+location_cells = 'Y100:Y400'
 
 print("UPDATING STAGES AND LOCATIONS OF R1 MODULES")
 for cell in R1_sheet.range('B100:B400'):
@@ -61,8 +61,8 @@ R1_sheet.update(range_name=location_cells, values=new_locations)
 # reset
 new_locations = []
 new_stages = []
-stage_cells = 'W100:W400'
-location_cells = 'X100:X400'
+stage_cells = 'X100:X400'
+location_cells = 'Y100:Y400'
 
 print("UPDATING STAGES AND LOCATIONS OF R2 MODULES")
 for cell in R2_sheet.range('B100:B400'):
